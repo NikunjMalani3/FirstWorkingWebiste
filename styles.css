@@ -42,16 +42,67 @@ hr {
     padding: 0.5rem 1rem;
 }
 
-
-.non-bulletlist {
+.non-bullet-list {
     list-style: none;
 }
 
-.non-bullet-list{
-    list-style: none;
-}
-
-.inlinelist{
-    display:inline;
+.inlinelist {
+    display: inline;
     padding: 0rem 0.5rem;
 }
+
+.maxsuper {
+    color: var(--primary-color);
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 1rem;
+     padding: 1rem 
+
+}
+
+.innavigation{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nonbulletnavlist {
+    list-style: none;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    text-align: right;
+    
+}
+
+.inlinenavlist {
+    display: inline;
+
+}
+
+.thirdlink {
+    text-decoration: none;
+    color: white;
+    padding: 0rem 0.5rem;
+    
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+.hero{
+    padding: 2rem
+}
+ .hero-image{
+     max-width: 350px;
+     display: block;
+     margin: auto;
+ }
+
+ .hero-heading{
+     font-size: 2rem;
+     color: grey;
+     padding-top: 1rem;
+ }
