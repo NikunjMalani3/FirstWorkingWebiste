@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+
 :root {
     --primary-color: rgb(0, 162, 255);
     --secondary-color: rgb(43, 226, 73);
@@ -7,6 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin:0px;
 }
 
 hr {
@@ -26,7 +28,7 @@ hr {
 /** link**/
 .primary-link {
     background-color: var(--primary-color);
-    color:var(--secondary-color);
+    color: var(--secondary-color);
 }
 
 .primary-link {
@@ -59,7 +61,7 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding: 1rem
 }
 
@@ -114,16 +116,35 @@ hr {
     background-color: blue;
     border-radius:1rem 1rem ;
 } */
-.redsect{
+.redsect {
     background-color: red;
     text-align: center;
-    border-radius: 1rem 1rem;
+    border-radius: 0.5rem 0.5rem;
     padding: 1rem;
 }
 
-.sect{
+.sect {
     text-align: center;
     padding: 3rem
+}
 
+.footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.ftlink {
+    text-decoration: none;
+    color: white;
 
 }
+
+.lilink {
+    list-style: none;
+    display: inline;
+    padding: 0rem 2rem;
+}
+
