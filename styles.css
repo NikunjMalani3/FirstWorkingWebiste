@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: rgb(0, 162, 255);
+    --secondary-color: rgb(43, 226, 73);
 }
 
 body {
@@ -25,7 +26,7 @@ hr {
 /** link**/
 .primary-link {
     background-color: var(--primary-color);
-    color: white;
+    color:var(--secondary-color);
 }
 
 .primary-link {
@@ -37,7 +38,7 @@ hr {
 .secondary-link {
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 2px solid var(--primary-color);
+    border: 2px solid var(--secondary-color);
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -59,11 +60,10 @@ hr {
     background-color: var(--primary-color);
     color: white;
     border-radius: 1rem;
-     padding: 1rem 
-
+    padding: 1rem
 }
 
-.innavigation{
+.innavigation {
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -73,7 +73,7 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     text-align: right;
-    
+
 }
 
 .inlinenavlist {
@@ -85,24 +85,45 @@ hr {
     text-decoration: none;
     color: white;
     padding: 0rem 0.5rem;
-    
+
 }
 
-.navigation .link-active{
+.navigation .link-active {
     font-weight: bold;
 }
 
-.hero{
+.hero {
     padding: 2rem
 }
- .hero-image{
-     max-width: 350px;
-     display: block;
-     margin: auto;
- }
 
- .hero-heading{
-     font-size: 2rem;
-     color: grey;
-     padding-top: 1rem;
- }
+.hero-image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading {
+    font-size: 2rem;
+    color: orangered;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+/* .Ssect{
+    padding: 1rem 1rem;
+    background-color: blue;
+    border-radius:1rem 1rem ;
+} */
+.redsect{
+    background-color: red;
+    text-align: center;
+    border-radius: 1rem 1rem;
+    padding: 1rem;
+}
+
+.sect{
+    text-align: center;
+    padding: 3rem
+
+
+}
