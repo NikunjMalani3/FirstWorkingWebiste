@@ -148,4 +148,7 @@ hr {
     display: inline;
     padding: 0rem 2rem;
 }
-
+.container-red{
+    margin:auto;
+    max-width: 500px;
+}
