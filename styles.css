@@ -8,11 +8,12 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 1px;
+    margin: 0.5px;
 }
 
 hr {
     margin: 2rem 0rem;
+    color:var(--primary-color);
 }
 
 .container-center {
@@ -175,8 +176,7 @@ hr {
     text-decoration: underline;
 }
 
-.container-project-list{
-    margin:auto;
-    text-align: center;
+.container-project-list {
+    
 }
 
