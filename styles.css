@@ -3,12 +3,12 @@
 
 :root {
     --primary-color: rgb(0, 162, 255);
-    --secondary-color: rgb(43, 226, 73);
+    --secondary-color: #9CA3AF;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin:0px;
+    margin:1px;
 }
 
 hr {
@@ -27,20 +27,21 @@ hr {
 
 /** link**/
 .primary-link {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: BLACK;
 }
 
 .primary-link {
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     border-radius: 0.5rem;
 }
 
+
 .secondary-link {
-    color: var(--primary-color);
+    color: black;
     border-radius: 0.5rem;
-    border: 2px solid var(--secondary-color);
+    border: 2px solid var(--primary-color);
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -111,13 +112,8 @@ hr {
     text-align: center;
 }
 
-/* .Ssect{
-    padding: 1rem 1rem;
-    background-color: blue;
-    border-radius:1rem 1rem ;
-} */
 .redsect {
-    background-color: red;
+    background-color: var(--secondary-color);
     text-align: center;
     border-radius: 0.5rem 0.5rem;
     padding: 1rem;
@@ -125,9 +121,21 @@ hr {
 
 .sect {
     text-align:center;
-    padding: 3rem;
-    
+    padding: 3rem;  
+   
 }
+.container-red{
+    margin:auto;
+    max-width: 500px; 
+    padding-bottom: 2rem;
+}
+
+.container-second{
+    margin:auto;
+    max-width: 500px;
+    padding-bottom: 2rem;
+}
+
 
 .footer {
     text-align: center;
@@ -137,9 +145,17 @@ hr {
     border-radius: 0.5rem;
 }
 
+.footer2{
+    font-weight: bold;
+    font-size: large;
+}
+
 .ftlink {
     text-decoration: none;
     color: white;
+    border:3px solid #9CA3AF;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.25rem;
 
 }
 
@@ -148,7 +164,16 @@ hr {
     display: inline;
     padding: 0rem 2rem;
 }
-.container-red{
-    margin:auto;
-    max-width: 500px;
+
+
+.footer ul{
+    padding-inline-start: 0px;
 }
+
+
+/* .primary--link{
+    color: BLACK;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color); */
