@@ -55,10 +55,6 @@ hr {
     padding: 0rem 0.5rem;
 }
 
-.maxsuper {
-    color: var(--primary-color);
-}
-
 .navigation {
     background-color: var(--primary-color);
     color: white;
@@ -95,47 +91,46 @@ hr {
     font-weight: bold;
 }
 
-.hero {
+.header {
     padding: 2rem
 }
 
-.hero-image {
+.website-image {
     max-width: 350px;
     display: block;
     margin: auto;
 }
 
-.hero-heading {
+.image-heading {
     font-size: 2rem;
     color: orangered;
     padding-top: 1rem;
     text-align: center;
 }
 
-.redsect {
+.sectionone {
     background-color: var(--secondary-color);
     text-align: center;
     border-radius: 0.5rem 0.5rem;
     padding: 1rem;
 }
 
-.sect {
+.sectiontwo {
     text-align:center;
     padding: 3rem;  
    
 }
-.container-red{
+.container-sectionone{
     margin:auto;
     max-width: 500px; 
     padding-bottom: 2rem;
 }
 
-.container-second{
+ .container-sectiontwo{
     margin:auto;
     max-width: 500px;
     padding-bottom: 2rem;
-}
-
+} 
 
 .footer {
     text-align: center;
@@ -145,24 +140,24 @@ hr {
     border-radius: 0.5rem;
 }
 
-.footer2{
+.infooter{
     font-weight: bold;
     font-size: large;
 }
 
-.ftlink {
+.footerlist {
+    list-style: none;
+    display: inline;
+    padding: 0rem 2rem;
+}
+
+.footerlink {
     text-decoration: none;
     color: white;
     border:3px solid #9CA3AF;
     border-radius: 0.5rem;
     padding: 0.25rem 0.25rem;
 
-}
-
-.lilink {
-    list-style: none;
-    display: inline;
-    padding: 0rem 2rem;
 }
 
 
@@ -177,3 +172,5 @@ hr {
     padding: 1rem 1rem;
     border-radius: 0.5rem;
     background-color: var(--primary-color); */
+
+   
