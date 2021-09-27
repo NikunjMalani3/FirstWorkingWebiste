@@ -33,7 +33,7 @@ hr {
 
 .primary-link {
     text-decoration: none;
-    padding: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
     border-radius: 0.5rem;
 }
 
@@ -114,7 +114,8 @@ hr {
     border-radius: 0.5rem 0.5rem;
     padding-bottom: 1rem;
 }
-.headinginsectionone{
+
+.headinginsectionone {
     padding-top: 1rem;
 }
 
@@ -174,9 +175,8 @@ hr {
     text-decoration: underline;
 }
 
-/* .primary--link{
-    color: BLACK;
-    text-decoration: none;
-    padding: 1rem 1rem;
-    border-radius: 0.5rem;
-    background-color: var(--primary-color); */
+.container-project-list{
+    margin:auto;
+    text-align: center;
+}
+
